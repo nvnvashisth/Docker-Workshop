@@ -66,8 +66,11 @@ b.	Modify the line that starts with ExecStart to look like this
 > Where the addition is “-H tcp://0.0.0.0:4243”
 
 c.	Save the modified file 
+
 d.	Run systemctl daemon-reload 
+
 e.	Run sudo service docker restart 
+
 f.	Test that the Docker API is indeed accessible: 
 
 > curl http://localhost:4243/version
