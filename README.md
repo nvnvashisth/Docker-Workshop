@@ -33,6 +33,9 @@ h.	To install docker-compose run the following commands:
 ## 2.	In Windows
 > https://docs.docker.com/docker-for-windows/install/
 
+## 3.   In Mac
+> https://docs.docker.com/toolbox/toolbox_install_mac/ 
+
 # Steps to execute the exercise
 
 #### 1.  Complete the microservice product-description-service( to get product name and URL) and product-price-service(to get product price), based upon the product id passed as the query parameter. You need to complete the following files 
